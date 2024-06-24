@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav align="center" >
+            <span>
+                <a href="/home">Home</a>
+            </span>
+            <span>
+                <a href="/about">About</a>
+            </span>
+            <span>
+                <a href="/contact">Contact</a>
+            </span>
+        </nav>
+    </header>
+    <main align="center">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer align="center">
+        &copy; 2024 Created by USN : 1RN21IS026
+    </footer>
+</body>
+</html>
